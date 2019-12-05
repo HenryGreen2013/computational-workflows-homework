@@ -1,7 +1,7 @@
 # wallet.py
 
 class InsufficientAmount(Exception):
-    assert wallet.balance > 0
+    pass
 
 
 class Wallet(object):
