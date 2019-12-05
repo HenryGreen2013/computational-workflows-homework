@@ -14,7 +14,8 @@ git remote add origin https://github.com/HenryGreen2013/computational-workflows-
 git pull origin master
 git push origin master
 git add .
-# copy the Dockerfile here
+# copy the Dockerfile into the current folder
+git add .
 git commit -m "version01"
 git push origin master
 
