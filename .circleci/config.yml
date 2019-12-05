@@ -1,10 +1,9 @@
-workflows:
-    version: 2.1
+version: 2
+jobs:
+  build:
+    docker:
+       - image: henrygreen/pytest # e.g. the primary container, where your job's commands are run
 
-    jobs:
-      build:
-        docker:
-          - image: henrygreen/pytest # e.g. the primary container, where your job's commands are run
-        steps:
-          - checkout # check out the code from github in the project directory
-          - run: py.test-3 # run py.test-3 inside the container
+    steps:
+      - checkout # check out the code from github in the project directory
+      - run:py.test-3 # run py.test-3 inside the container
