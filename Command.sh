@@ -19,3 +19,8 @@ git add .
 git commit -m "version01"
 git push origin master
 
+# copy wallet.py and test_wallet.py
+git add .
+git commit -m "version01"
+git push origin master
+
