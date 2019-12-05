@@ -1,0 +1,6 @@
+sudo docker build .
+# Successfully built 7897da544514
+sudo docker tag 78 henrygreen/pytest
+sudo docker login
+sudo docker push henrygreen/pytest
+
