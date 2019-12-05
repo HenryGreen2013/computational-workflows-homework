@@ -27,3 +27,10 @@ git push origin master
 cd PythonTest
 sudo docker run -ti -v $(pwd):/root/shared henrygreen/pytest
 
+# Exercises
+
+## 1. Write a new test in test_wallet.py that fails. Push the file to github. What do you see on github.com?
+## There will be a red x mark instead of a green check mark.
+
+## 2. Fix the test. What do you see on github.com?
+## The red x mark was changed back to the green check mark again.
