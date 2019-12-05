@@ -6,4 +6,4 @@ jobs:
 
     steps:
       - checkout # check out the code from github in the project directory
-      - run:ls # run py.test-3 inside the container
+      - run: py.test-3 # run py.test-3 inside the container
