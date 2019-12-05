@@ -9,19 +9,19 @@ sudo docker push henrygreen/pytest
 cd computational-workflows-homework
 git init
 git add .
-git commit -m "version01" # not sure what it means
+git commit -m "Henry" # not sure what it means
 git remote add origin https://github.com/HenryGreen2013/computational-workflows-homework
 git pull origin master
 git push origin master
 git add .
 # copy the Dockerfile into the current folder
 git add .
-git commit -m "version01"
+git commit -m "Henry"
 git push origin master
 
 # copy wallet.py and test_wallet.py
 git add .
-git commit -m "version01"
+git commit -m "Henry"
 git push origin master
 
 cd PythonTest
