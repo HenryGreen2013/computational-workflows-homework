@@ -24,3 +24,6 @@ git add .
 git commit -m "version01"
 git push origin master
 
+cd PythonTest
+sudo docker run -ti -v $(pwd):/root/shared henrygreen/pytest
+
